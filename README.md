@@ -1,28 +1,41 @@
-# Nexus Deck для Windows
+# Nexus Deck for Windows
 
-Робочий стіл ведучої: сцени, музика, атмосфера, карти та екран для гравців.
+A Game Master workspace for scenes, music, layered ambience, maps and a player TV screen.
 
-## Завантаження
+## Download and install
 
-[Завантажити Nexus Deck для Windows](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases)
+**[Download NexusDeck-0.2.0-preview.14-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.14/NexusDeck-0.2.0-preview.14-Setup.exe)**
 
-1. Завантажте Windows.zip із найновішої версії.
-2. Розпакуйте ZIP у власну папку (наприклад, Документи\NexusDeck). Не запускайте EXE просто з архіву.
-3. Запустіть NexusDeck.exe. Python окремо встановлювати не потрібно.
-4. Інструкція «Почати тут.txt» міститься поруч із програмою.
+[All versions and portable ZIP downloads](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases)
 
-Для YouTube Music потрібне розширення Chrome: підготуйте його в налаштуваннях Nexus Deck і встановіть через «Завантажити розпаковане» у chrome://extensions. Залишайте підготовлену папку розширення на місці.
+1. Download Setup.exe and run the English or Ukrainian installation wizard.
+2. The default location is `%LOCALAPPDATA%\Programs\NexusDeck`. Administrator privileges, Python and manual ZIP extraction are not required.
+3. Open Nexus Deck from the Start menu or desktop shortcut.
 
-## Оновлення
+Alternatively, download the Windows ZIP, extract the entire folder and run `NexusDeck.exe`. Keep its `_internal` folder alongside it. The installer and portable ZIP contain the same application and all 11 base ambience sounds.
 
-Починаючи з preview.10: налаштування → «Оновлення Nexus Deck» → «Перевірити оновлення» → «Завантажити оновлення» → «Встановити й перезапустити».
-Завантаження не перериває гру. Встановлення перезапускає деку, тому робіть це між сесіями.
+The installer is not yet code-signed; Windows may show an unknown publisher notice.
 
-Для переходу зі старіших версій один раз закрийте деку (і старі консолі, якщо є), розпакуйте новий ZIP у папку програми та запустіть NexusDeck.exe.
+## Updating
 
-Дані столу зберігаються окремо, стандартно в `%LOCALAPPDATA%\NexusDeck\Tables\default`.
-Якщо вибрали власну папку даних, не видаляйте її. Перед оновленням радимо зробити ZIP-копію столу в налаштуваннях.
+From preview.10 or later: open **Technical settings > Nexus Deck updates > Check for updates > Download update > Install and restart**. From preview.11, the deck also checks in the background at startup and announces newer versions. Downloads do not interrupt play; install between sessions.
 
-Програма працює без консолей, з іконкою біля годинника. Закриття вкладки браузера не завершує програму. Завершення роботи — через цю іконку або налаштування.
+You can also close the deck and run a newer Setup.exe. It updates program files in the existing installation folder. The installer asks you to close a running deck rather than forcibly ending your game.
 
-Цей репозиторій містить лише готові збірки та інструкцію. Вихідний код, особисті сцени й конфіги не публікуються.
+## Your table data
+
+Scenes, sounds, configuration and the prepared Chrome extension are kept separately. The default table is `%LOCALAPPDATA%\NexusDeck\Tables\default`. Keep any custom table folder. Back up your table as a ZIP from the app before moving it to another computer.
+
+If your old portable installation used a `data` subfolder, or a custom shortcut supplied `--data`, first open the old deck and select that same folder through **Technical settings > Table data folder**. Close the old deck before opening the newly installed program. No table files need to be moved or deleted.
+
+Uninstalling Nexus Deck through Windows Installed apps removes installed program files and shortcuts, while leaving table data in place.
+
+## YouTube Music and TV
+
+For YouTube Music, prepare the Chrome extension in Technical settings, then load that prepared folder through `chrome://extensions` > Developer mode > Load unpacked. Keep the prepared folder on disk. You do not need to reinstall the extension when updating Nexus Deck.
+
+For a player screen, open TV view, move the browser to the HDMI-connected display and use fullscreen.
+
+Nexus Deck runs in the background without terminal windows. Closing a browser tab does not quit the app; use its system tray icon or Technical settings to quit.
+
+This repository contains binary releases and documentation only. Source code, personal scenes and configuration remain private. A GitHub account is not needed to download the application.
