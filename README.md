@@ -10,7 +10,7 @@ A Game Master workspace for scenes, music, layered ambience, maps and a player T
 
 ## Download and install
 
-**[Download NexusDeck-0.2.0-preview.15-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.15/NexusDeck-0.2.0-preview.15-Setup.exe)**
+**[Download NexusDeck-0.2.0-preview.17-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.17/NexusDeck-0.2.0-preview.17-Setup.exe)**
 
 [All versions and portable ZIP downloads](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases)
 
