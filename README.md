@@ -2,6 +2,12 @@
 
 A Game Master workspace for scenes, music, layered ambience, maps and a player TV screen.
 
+## First-steps guide
+
+[Read in English](docs/GETTING-STARTED.md) · [Read in Ukrainian](docs/GETTING-STARTED-UA.md)
+
+[Download the offline bilingual HTML guide](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.17/NexusDeck-0.2.0-preview.17-Guide.html). Open it locally, switch languages and print or save to PDF. The same guide is bundled with the app: **Technical settings > First steps**. It covers installation, background operation, music, scenes, atmosphere, TV, maps, tools and backups. This edition contains written steps and a lifecycle diagram; fresh interface screenshots are still pending.
+
 ## Download and install
 
 **[Download NexusDeck-0.2.0-preview.15-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.15/NexusDeck-0.2.0-preview.15-Setup.exe)**
