@@ -4,11 +4,11 @@ A Game Master workspace for scenes, music, layered ambience, maps and a player T
 
 ## Download and install
 
-**[Download NexusDeck-0.2.0-preview.14-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.14/NexusDeck-0.2.0-preview.14-Setup.exe)**
+**[Download NexusDeck-0.2.0-preview.15-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.15/NexusDeck-0.2.0-preview.15-Setup.exe)**
 
 [All versions and portable ZIP downloads](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases)
 
-1. Download Setup.exe and run the English or Ukrainian installation wizard.
+1. Download Setup.exe and run the English or Ukrainian installation wizard. The language selector appears on every interactive launch, including manual updates.
 2. The default location is `%LOCALAPPDATA%\Programs\NexusDeck`. Administrator privileges, Python and manual ZIP extraction are not required.
 3. Open Nexus Deck from the Start menu or desktop shortcut.
 
