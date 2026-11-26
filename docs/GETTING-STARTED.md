@@ -2,7 +2,7 @@
 
 A short Game Master guide: from installation to your first session.
 
-For version 0.2.0-preview.17
+For version 0.2.0-preview.18
 
 Start Nexus Deck → Control it in your browser → Show TV view to players
 
@@ -47,7 +47,7 @@ Start Nexus Deck → Control it in your browser → Show TV view to players
 5. After the initial setup, quit and restart Nexus Deck. Keep Chrome and the music tab open.
 6. Check the bottom player: the track title should appear, and pause and volume controls should work.
 
-> Do not delete or share the prepared extension folder: it contains a key for this GM. Each GM prepares their own extension. Normal deck updates do not require reinstalling it.
+> Do not delete or share the prepared extension folder: it contains a key for this GM. Each GM prepares their own. Most deck updates do not require reinstalling it. If a release requires an extension refresh (for example 0.1.2), prepare its files, reload the extension at chrome://extensions, refresh YouTube Music and reconnect the tab.
 
 ## 5. Your first scene and sound
 
