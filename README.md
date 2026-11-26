@@ -6,11 +6,11 @@ A Game Master workspace for scenes, music, layered ambience, maps and a player T
 
 [Read in English](docs/GETTING-STARTED.md) · [Read in Ukrainian](docs/GETTING-STARTED-UA.md)
 
-[Download the offline bilingual HTML guide](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.17/NexusDeck-0.2.0-preview.17-Guide.html). Open it locally, switch languages and print or save to PDF. The same guide is bundled with the app: **Technical settings > First steps**. It covers installation, background operation, music, scenes, atmosphere, TV, maps, tools and backups. This edition contains written steps and a lifecycle diagram; fresh interface screenshots are still pending.
+[Download the offline bilingual HTML guide](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.18/NexusDeck-0.2.0-preview.18-Guide.html). Open it locally, switch languages and print or save to PDF. The same guide is bundled with the app: **Technical settings > First steps**. It covers installation, background operation, music, scenes, atmosphere, TV, maps, tools and backups. This edition contains written steps and a lifecycle diagram; fresh interface screenshots are still pending.
 
 ## Download and install
 
-**[Download NexusDeck-0.2.0-preview.17-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.17/NexusDeck-0.2.0-preview.17-Setup.exe)**
+**[Download NexusDeck-0.2.0-preview.18-Setup.exe](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases/download/v0.2.0-preview.18/NexusDeck-0.2.0-preview.18-Setup.exe)**
 
 [All versions and portable ZIP downloads](https://github.com/R0ckyRacc00n/NexusDeck-Releases/releases)
 
@@ -45,3 +45,6 @@ For a player screen, open TV view, move the browser to the HDMI-connected displa
 Nexus Deck runs in the background without terminal windows. Closing a browser tab does not quit the app; use its system tray icon or Technical settings to quit.
 
 This repository contains binary releases and documentation only. Source code, personal scenes and configuration remain private. A GitHub account is not needed to download the application.
+
+
+Music extension update: preview.18 fixes scene track lookup and uses extension **0.1.2**. Prepare the extension files in Technical settings, reload Nexus Deck at `chrome://extensions`, refresh YouTube Music and choose **Connect this tab**. Keep the existing extension folder and local key.
